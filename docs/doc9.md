@@ -51,43 +51,6 @@ The most common web browsers are (shown in order of most used first):
 * [Firefox](https://www.mozilla.org/firefox/)
 * [Safari](http://www.apple.com/safari/)
 
-### **Headless Browsers**
-
-Headless browsers are a web browser without a graphical user interface that can be controlled from a command line interface programmatically for the purpose of web page automation (e.g., functional testing, scraping, unit testing, etc.). Think of headless browsers as a browser that you can run from the command line that can retrieve and traverse web pages.
-
-The most common headless browsers are:
-
-* [PhantomJS](http://phantomjs.org/)
-* [slimerjs](http://slimerjs.org/)
-* [trifleJS](http://triflejs.org/)
-
-### **Webviews**
-
-[Webviews ](http://developer.telerik.com/featured/what-is-a-webview/)are used by a native OS, in a native application, to run web pages. Think of a [webview ](http://developer.telerik.com/featured/what-is-a-webview/)like an iframe or a single tab from a web browser that is embedded in a native application running on a device (e.g., [iOS](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIWebView_Class/), [android](http://developer.android.com/reference/android/webkit/WebView.html), [windows](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.webview.aspx)).
-
-The most common solutions for [webview ](http://developer.telerik.com/featured/what-is-a-webview/)development are:
-
-* [Cordova ](https://cordova.apache.org/)(typically for native phone/tablet apps)
-* [NW.js ](https://github.com/nwjs/nw.js)(typically used for desktop apps)
-* [Electron ](http://electron.atom.io/)(typically used for desktop apps)
-* The days of [battling ](https://kangax.github.io/compat-table/es6/)[inconsistent browser API's](https://html5test.com/results/desktop.html) are almost behind us due to a massive decline in usage and development for [older versions of IE](https://www.netmarketshare.com/browser-market-share.aspx?qprid=2&qpcustomd=0).
-* Most everyone realized they will have to have a [multi-device strategy ](http://www.intel.com/content/dam/www/public/us/en/images/iot/guide-to-iot-infographic.png)plan when developing for the web
-* More developers, from other languages, continue to flood the JavaScript space bringing[ with them things like type checking and an obsession with class syntax and OOP concepts.](https://www.typescriptlang.org/)
-* [Front-end devs are introduced to Hot Module replacement techniques and time travel debugging.](https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35#.ezlpqez1i)
-* More waiting for a native [JavaScript browser module loader](https://whatwg.github.io/loader/).
-* [Enforcing CSS ](https://css-tricks.com/stylelint/)and [JavaScript style conventions ](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)becomes more important (considering ES3 to ES6 code and CSS pre-processors syntactical variations)
-* [A small but noticeable number of developers are starting to choose Elm over JavaScript.](https://www.brianthicks.com/post/2016/04/22/state-of-elm-2016-results/)
-* [TypeScript ](https://www.typescriptlang.org/)gets some serious use and fanboys.
-* [http://aurelia.io/ ](http://aurelia.io/)becomes the [smart choice for enterprise developers ](https://www.youtube.com/watch?v=6I_GwgoGm1w&t=3315s)(i.e. support!). 
-* [Webpack ](https://webpack.js.org/configuration/)gets its act [together ](https://opencollective.com/webpack)and solidifies is position over the superior 
-* [JSPM ](https://www.pluralsight.com/courses/javascript-systemjs-jspm)solution. 
-* [HTTPS, yeah, we're serious about that.](https://developers.google.com/web/updates/2016/10/avoid-not-secure-warn)
-* [BASH ](https://msdn.microsoft.com/en-us/commandline/wsl/about) on windows happens.
-* [notifications API ](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)gets used and abused for chrome users, but only after you give it permission.
-* [Firebug officially dead](https://github.com/firebug/firebug).
-* CSS [20 years young ](https://www.w3.org/Style/CSS20/)in 2016. 
-* [Immutability ](https://facebook.github.io/immutable-js/)concepts run rapid.
-
 ### **In future expect...**
 
 * [Web Assembly](http://webassembly.org/), might just peak.
@@ -95,8 +58,8 @@ The most common solutions for [webview ](http://developer.telerik.com/featured/w
 * Universal JavaScript solutions will continue to rise that pay homage/respect to the days of [server delivered front-ends (i.e. html to the client)](https://github.com/zeit/next.js).
 * Reactive programming continues to thrive in the JavaScript scene. (see MobX and RxJS).
 * React, more so the concept, will dominate. React itself will be completely re-written (see [React Fiber](https://github.com/acdlite/react-fiber-architecture)) or evolve (see [Inferno](https://github.com/infernojs/inferno)).
-* Angular found SEMVER so Angular 4 (even 5) is on the [roadmap ](https://www.youtube.com/watch?v=aJIMoLgqU_o&feature=youtu.be&t=6m12s)for 2017.
-* A return to simple websites may happen, web 1.0 retro, but with the help of 2017 tools (i.e. [static site generation](https://github.com/vigetlabs/gulp-starter/tree/blendid))
+* Angular found SEMVER so Angular 4 (even 5) is on the [roadmap ](https://www.youtube.com/watch?v=aJIMoLgqU_o&feature=youtu.be&t=6m12s)forupcoming years.
+* A return to simple websites may happen, web 1.0 retro, but with the help of tools (i.e. [static site generation](https://github.com/vigetlabs/gulp-starter/tree/blendid))
 * RESTful JSON APIs will get more competition (see [GraphQL](http://graphql.org/)) Could be a banner year for [Vue.js](https://vuejs.org/).
 * [More devs will abandon traditional CMS solutions for static site generators & API CMS tools.](https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C5CHFA_enUS712US713&ion=1&espv=2&ie=UTF-8&q=api%20cms)
 * More people will move from Sass to [PostCSS ](http://postcss.org/)+ cssnext. Lots more HTTP2 and HTTPS.
@@ -1065,13 +1028,6 @@ These solutions typically use [Cordova](https://cordova.apache.org/), [crosswalk
 
 * [Monkey Test It](https://monkeytest.it/)
 
-
-**NOTES:**
-
-Testing frameworks typically offer more tools than just unit testing. If you are looking for JavaScript unit testing solutions look at [JavaScript Tools](https://frontendmasters.gitbooks.io/front-end-handbook-2017/content/tools/js.html).
-
-
-
 **SURVEY RESULTS:**
 
 [The images below are from the 2016 Frontend Tooling Survey (4715 developers) and 2016 State of JS Survey (9307 developers)](http://stateofjs.com/)
@@ -1181,24 +1137,9 @@ Testing frameworks typically offer more tools than just unit testing. If you are
 
 * [HTML5 Security Cheatsheet](https://html5sec.org/)
 
-
-
 ![](/img/fe-handbook/Aspose.Words.5c5312d5-ece8-4713-b1e0-a1d4939ed601.540.jpeg)
 
-
 ![](/img/fe-handbook/Aspose.Words.5c5312d5-ece8-4713-b1e0-a1d4939ed601.541.jpeg)
-
-
-
-
-### **JavaScript Error Reporting/Monitoring**
-
-* [bugsnag ](https://bugsnag.com/)[$] 
-* [errorception ](https://errorception.com/)[$] 
-* [Honeybadger ](https://www.honeybadger.io/)[$] 
-* [Raygun ](https://raygun.io/)[$] 
-* [Rollbar ](https://rollbar.com/)[free to $] 
-* [Sentry ](https://getsentry.com/welcome/)[free to $] [TrackJS ](https://trackjs.com/)[$]
 
 
 ### **Performance Tools**
@@ -1213,11 +1154,6 @@ Testing frameworks typically offer more tools than just unit testing. If you are
 
 * [imagemin](https://github.com/imagemin/imagemin) 
 * [ImageOptim-CLI](http://jamiemason.github.io/ImageOptim-CLI/)
-
-#### **Checklist:**
-
-* [Front-End Performance Checklist 2017](https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/)
-
 
 ### **Tools for Finding Tools**
 
